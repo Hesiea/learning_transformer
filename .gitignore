@@ -1,0 +1,22 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---------- 虚拟环境 / 解释器 ----------
+.venv/
+tools/
+
+# ---------- 数据与产物 ----------
+data/
+out/
+*.pt
+*.pth
+*.ckpt
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

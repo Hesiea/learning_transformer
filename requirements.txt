@@ -1,0 +1,13 @@
+# Transformer 学习工程依赖（CPU 版）
+# 安装：python -m pip install -r requirements.txt
+#
+# torch 默认从 PyPI 安装即为 CPU 版（Windows / Linux 皆然，除非显式指定 CUDA index）。
+# 如需锁定 CPU 轮子源，可用：
+#   python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+numpy>=1.26
+torch>=2.2
+requests>=2.31
+
+# 可选：画注意力热力图 / 训练曲线（装有 matplotlib 时 03/07 讲会自动出图）
+matplotlib>=3.8
