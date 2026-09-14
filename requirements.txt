@@ -11,3 +11,8 @@ requests>=2.31
 
 # 可选：画注意力热力图 / 训练曲线（装有 matplotlib 时 03/07 讲会自动出图）
 matplotlib>=3.8
+
+# 可选：只给 scripts/make_ppt.py 用（生成工程总结 PPT，课程本身不需要）
+# Python 侧用 python-pptx 拼版面，靠 Pillow 读图片尺寸做等比缩放
+python-pptx>=1.0
+Pillow>=10.0
